@@ -19,7 +19,7 @@ This server i am using with Ollama to parse documents and feed it to LLM.
 - docker build -t tika-server .
 
 ### Pull Image
-- docker pull defenderds/tika-server:tagname
+- docker pull defenderds/tika-server:latest
 
 ### Next Steps
 After pulling the image, the Tika server will be accessible on port 9998, allowing you to use it for document parsing, text extraction, and other functionalities provided by Apache Tika. Simply run the container and access it via:
